@@ -1,0 +1,33 @@
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/open/bob
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/open/charlie
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/open/dori
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/open/alice -d@channelToBob.json
+
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/connect/alice -d@channelToDori.json
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/connect/alice -d@channelToCharlie.json
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/connect/charlie -d@channelToDori.json
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/connect/dori -d@channelToCharlie.json
+
+curl -XGET http://$API_HOST:8080/v2/paymentchannel/info/alice
+curl -XGET http://$API_HOST:8080/v2/paymentchannel/info/bob
+curl -XGET http://$API_HOST:8080/v2/paymentchannel/info/charlie
+curl -XGET http://$API_HOST:8080/v2/paymentchannel/info/dori
+
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/send/alice -d@sendMoneyToBob.json
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/send/alice -d@sendMoneyToCharlie.json
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/send/bob -d@sendMoneyToAlice.json
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/send/charlie -d@sendMoneyToDori.json
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/send/dori -d@sendMoneyToCharlie.json
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/send/bob -d@sendMoneyToCharlie.json
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/send/alice -d@sendMoneyToDori.json
+
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/disconnect/charlie -d@channelToDori.json
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/disconnect/dori -d@channelToCharlie.json
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/disconnect/alice -d@channelToCharlie.json
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/disconnect/alice -d@channelToCharlie.json
+
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/close/alice -d@channelToBob.json
+curl -XPOST http://$API_HOST:8080/v2/paymentchannel/close/bob   -d@channelToBob.json
+
+curl -XPOST http://$API_HOST:8080/v2/ethereum/executeTransaction/2100000 -d@transaction-alice-charlie.json
+curl -XPOST http://$API_HOST:8080/v2/ethereum/executeTransaction/2100000 -d@transaction-bob-dori.json

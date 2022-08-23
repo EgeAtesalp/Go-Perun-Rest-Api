@@ -1,0 +1,17 @@
+version: "2"
+services:
+# TDOD: win is here redundant
+  ubuntu-win-x64-api:
+    privileged: true
+    image: ubuntu-win-x64-api:latest
+    ports:
+      - "8001:8080"
+    mem_limit: 3500M
+    volumes:
+      # - "/var/run/docker.sock:/var/run/docker.sock"
+      #TODO: eth container log to /home/ubuntu
+      - "./log:/var/log/go-perun-rest-api"
+    restart: always
+    environment:
+      BLOCKCHAIN: ws://192.168.0.11:8546
+      DATABASE: JustTestIng

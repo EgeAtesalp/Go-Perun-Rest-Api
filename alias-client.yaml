@@ -1,0 +1,29 @@
+alias: 
+secretKey: 
+publicKey: 
+walletPath: /tmp/alias_client_wallet
+
+channel:
+  timeout: 30s
+  fundTimeout: 30s
+  settleTimeout: 30s
+  challengeDurationSec: 120
+
+node:
+  ip: 
+  port: 
+  dialTimeout: 30s
+  handleTimeout: 30s
+  reconnectTimeout: 20s
+  persistencePath: /tmp/alias_client_database
+
+chain:
+  url: 
+  contractsetup: validate
+  adjudicator: 
+  assetholder: 
+  txTimeout: 30s
+
+log:
+  level: full
+  file: "go-perun-rest-api.log"

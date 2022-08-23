@@ -1,0 +1,8 @@
+{"level":"info","time":"2022-08-14T06:52:11Z","message":"run init"}
+{"level":"info","args":"[\"./restapidemo\",\"--server\",\"--bc=ws://192.168.2.136:8546\",\"--db=192.168.2.5\",\"--pub=192.168.2.136\"]","caller":"/home/ubuntu/go-perun-rest-api/main.go:62","timeInMicSec":1660459931798048,"message":"command-line args"}
+{"level":"info","caller":"/home/ubuntu/go-perun-rest-api/main.go:74","timeInMicSec":1660459931802458,"message":"Use block chain boot node ws://192.168.2.136:8546"}
+{"level":"info","caller":"/home/ubuntu/go-perun-rest-api/main.go:82","timeInMicSec":1660459931803026,"message":"Use database node 192.168.2.5"}
+{"level":"info","caller":"/home/ubuntu/go-perun-rest-api/main.go:89","timeInMicSec":1660459931803498,"message":"Use public ip address for current api node 192.168.2.136"}
+{"level":"info","caller":"/home/ubuntu/go-perun-rest-api/main.go:119","timeInMicSec":1660459931805010,"message":"Server started"}
+{"level":"info","caller":"/home/ubuntu/go-perun-rest-api/files/paymentchannel/root.go:55","timeInMicSec":1660459931808715,"message":"run init config"}
+{"level":"info","caller":"/home/ubuntu/go-perun-rest-api/files/paymentchannel/root.go:60","timeInMicSec":1660459931814370,"message":"current path :%!(EXTRA string=/home/ubuntu/go-perun-rest-api)"}

@@ -1,0 +1,29 @@
+alias: charlie
+secretKey: 0xf436ed6e44eee35cadb2819fee2a3174bb453a6906bc20dfd593ee52400a2b6d
+publicKey: 0xfa5b92df9d88b1bb3aa31b88171b4ebe785ab2a83ec9d04f142d610411142cfdee54c8febb287ed4695cd1a9312f65eb9d00397a5a8216130c292f72dfc996a4
+walletPath: /tmp/charlie_wallet
+
+channel:
+  timeout: 30s
+  fundtimeout: 30s
+  settleTimeout: 30s
+  challengeDurationSec: 120
+
+node:
+  ip: 127.0.0.1
+  port: 5752
+  dialTimeout: 30s
+  handleTimeout: 30s
+  reconnectTimeout: 20s
+  persistencePath: /tmp/charlie_database
+
+chain:
+  url: ws://192.168.0.1:8546
+  contractsetup: validate
+  adjudicator: 0xf3f194a91eA1E77514F2e69e3B95457F89467C41
+  assetholder: 0x79DB73424A8b5BD4D65849De0d60aAE9d146A76f
+  txTimeout: 30s
+
+log:
+  level: full
+  file: "charlie.log"

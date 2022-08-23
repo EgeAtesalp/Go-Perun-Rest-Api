@@ -1,0 +1,685 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This is a simple REST API to access Block Chain on Ethereum and handling Smart Contracts and Payment Channel as well.",
+    "version": "1.0.0",
+    "title": "ODS ",
+    "termsOfService": "http://swagger.io/terms/",
+    "contact": {
+      "email": "u.kuehn@tu-berlin.de"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host": "192.168.0.25:8080",
+  "basePath": "/v2",
+  "tags": [
+    {
+      "name": "ethereum",
+      "description": "interfaces for Ethereum"
+    },
+    {
+      "name": "paymentchannel",
+      "description": "access to payment channels"
+    }
+  ],
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/ethereum/createUser": {
+      "post": {
+        "tags": [
+          "ethereum"
+        ],
+        "summary": "adds an user to the ethereum block chain",
+        "description": "",
+        "operationId": "createUser",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "users object",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "succeeded",
+            "schema": {
+              "$ref": "#/definitions/Result"
+            }
+          },
+          "405": {
+            "description": "Validation exception",
+            "schema": {
+              "$ref": "#/definitions/Result"
+            }
+          }
+        }
+      }
+    },
+    "/ethereum/deployContract/{gasLimit}": {
+      "post": {
+        "tags": [
+          "ethereum"
+        ],
+        "summary": "adds an contract to the ethereum block chain",
+        "description": "",
+        "operationId": "deployContract",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "gasLimit",
+            "required": true,
+            "type": "integer",
+            "format": "uint64"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "contract object",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Contract"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "succeeded",
+            "schema": {
+              "$ref": "#/definitions/Result"
+            }
+          },
+          "405": {
+            "description": "Validation exception",
+            "schema": {
+              "$ref": "#/definitions/Result"
+            }
+          }
+        }
+      }
+    },
+    "/ethereum/estimateDeployContractGas/{alias}": {
+      "post": {
+        "tags": [
+          "ethereum"
+        ],
+        "summary": "estimates a contract deployment to the ethereum block chain",
+        "description": "",
+        "operationId": "estimateDeployContractGas",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "alias",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "contract object",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Contract"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "succeeded",
+            "schema": {
+              "$ref": "#/definitions/Result"
+            }
+          },
+          "405": {
+            "description": "Validation exception",
+            "schema": {
+              "$ref": "#/definitions/Result"
+            }
+          }
+        }
+      }
+    },
+    "/ethereum/executeTransaction/{gasLimit}": {
+      "post": {
+        "tags": [
+          "ethereum"
+        ],
+        "summary": "adds an transaction to the ethereum block chain",
+        "description": "",
+        "operationId": "executeTransaction",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "gasLimit",
+            "required": true,
+            "type": "integer",
+            "format": "uint64"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "transaction data",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Transaction"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "succeeded",
+            "schema": {
+              "$ref": "#/definitions/Result"
+            }
+          },
+          "405": {
+            "description": "Validation exception",
+            "schema": {
+              "$ref": "#/definitions/Result"
+            }
+          }
+        }
+      }
+    },
+    "/ethereum/estimateTransactionGas/{alias}": {
+      "get": {
+        "tags": [
+          "ethereum"
+        ],
+        "summary": "estimates an transaction to the ethereum block chain",
+        "description": "",
+        "operationId": "estimateTransactionGas",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "alias",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "transaction data",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Transaction"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "succeeded",
+            "schema": {
+              "$ref": "#/definitions/Result"
+            }
+          },
+          "405": {
+            "description": "Validation exception",
+            "schema": {
+              "$ref": "#/definitions/Result"
+            }
+          }
+        }
+      }
+    },
+    "/paymentchannel/info/{alias}": {
+      "get": {
+        "tags": [
+          "paymentchannel"
+        ],
+        "summary": "return connected peers to payment channels",
+        "description": "",
+        "operationId": "info",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "alias",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "succeeded",
+            "schema": {
+              "$ref": "#/definitions/Result"
+            }
+          },
+          "405": {
+            "description": "Validation exception",
+            "schema": {
+              "$ref": "#/definitions/Result"
+            }
+          }
+        }
+      }
+    },
+    "/paymentchannel/validateordeploy/{alias}": {
+      "post": {
+        "tags": [
+          "paymentchannel"
+        ],
+        "summary": "validates and deploys the smart contracts and store the current values in the db",
+        "description": "",
+        "operationId": "validateordeploy",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "alias",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "succeeded",
+            "schema": {
+              "$ref": "#/definitions/Result"
+            }
+          },
+          "405": {
+            "description": "Validation exception"
+          }
+        }
+      }
+    },
+    "/paymentchannel/open/{alias}": {
+      "post": {
+        "tags": [
+          "paymentchannel"
+        ],
+        "summary": "open a listener and opt. payment channel with given load (later with specified contract)",
+        "description": "",
+        "operationId": "open",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "alias",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "transaction data",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/OpenPaymentChannel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "succeeded",
+            "schema": {
+              "$ref": "#/definitions/Result"
+            }
+          },
+          "405": {
+            "description": "Validation exception"
+          }
+        }
+      }
+    },
+    "/paymentchannel/connect/{alias}": {
+      "post": {
+        "tags": [
+          "paymentchannel"
+        ],
+        "summary": "open a payment channel with given load, both users must have open used already (later with specified contract)",
+        "description": "",
+        "operationId": "connect",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "alias",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "transaction data",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/OpenPaymentChannel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "succeeded",
+            "schema": {
+              "$ref": "#/definitions/Result"
+            }
+          },
+          "405": {
+            "description": "Validation exception"
+          }
+        }
+      }
+    },
+    "/paymentchannel/send/{alias}": {
+      "post": {
+        "tags": [
+          "paymentchannel"
+        ],
+        "summary": "send given balance to given payment channel (later with specified contract)",
+        "description": "",
+        "operationId": "send",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "alias",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "transaction data",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/UsePaymentChannel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "succeeded",
+            "schema": {
+              "$ref": "#/definitions/Result"
+            }
+          },
+          "405": {
+            "description": "Validation exception"
+          }
+        }
+      }
+    },
+    "/paymentchannel/close/{alias}": {
+      "post": {
+        "tags": [
+          "paymentchannel"
+        ],
+        "summary": "close the channel for the given user",
+        "description": "",
+        "operationId": "close",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "alias",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "transaction data",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/OpenPaymentChannel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "succeeded",
+            "schema": {
+              "$ref": "#/definitions/Result"
+            }
+          },
+          "405": {
+            "description": "Validation exception"
+          }
+        }
+      }
+    },
+    "/paymentchannel/disconnect/{alias}": {
+      "post": {
+        "tags": [
+          "paymentchannel"
+        ],
+        "summary": "close the channel only for the given users",
+        "description": "",
+        "operationId": "disconnect",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "alias",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "transaction data",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/OpenPaymentChannel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "succeeded",
+            "schema": {
+              "$ref": "#/definitions/Result"
+            }
+          },
+          "405": {
+            "description": "Validation exception"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Result": {
+      "type": "object",
+      "properties": {
+        "success": {
+          "type": "boolean"
+        },
+        "indata": {
+          "type": "object"
+        },
+        "outdata": {
+          "type": "object"
+        },
+        "error": {
+          "$ref": "#/definitions/Error"
+        },
+        "gasUsage": {
+          "type": "integer",
+          "format": "uint64"
+        }
+      }
+    },
+    "Error": {
+      "type": "object",
+      "properties": {
+        "shortMessage": {
+          "type": "string"
+        },
+        "longMessage": {
+          "type": "string"
+        }
+      }
+    },
+    "User": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "privatekey": {
+          "type": "string"
+        },
+        "secret": {
+          "type": "string"
+        },
+        "alias": {
+          "type": "string"
+        }
+      }
+    },
+    "Contract": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "abi": {
+          "type": "string"
+        },
+        "bin": {
+          "type": "string"
+        }
+      }
+    },
+    "Transaction": {
+      "type": "object",
+      "properties": {
+        "sender": {
+          "type": "string"
+        },
+        "receiver": {
+          "type": "string"
+        },
+        "value": {
+          "type": "integer",
+          "format": "int64"
+        }
+      }
+    },
+    "OpenPaymentChannel": {
+      "type": "object",
+      "properties": {
+        "target": {
+          "type": "string"
+        },
+        "contract": {
+          "type": "string"
+        },
+        "ownBalance": {
+          "type": "integer",
+          "format": "uint64"
+        },
+        "theirsBalance": {
+          "type": "integer",
+          "format": "uint64"
+        }
+      }
+    },
+    "UsePaymentChannel": {
+      "type": "object",
+      "properties": {
+        "ref-to-version": {
+          "type": "integer",
+          "format": "uint64"
+        },
+        "target": {
+          "type": "string"
+        },
+        "balance": {
+          "type": "integer",
+          "format": "uint64"
+        },
+        "part": {
+          "type": "string",
+          "enum": [
+            "money-response",
+            "money-request",
+            "data-request",
+            "data-response"
+          ]
+        },
+        "message": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "externalDocs": {
+    "description": "Find out more about Swagger",
+    "url": "http://swagger.io"
+  }
+}

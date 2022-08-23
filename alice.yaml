@@ -1,0 +1,29 @@
+alias: alice
+secretKey: 0x71b22a3a8d76707ce89966791e30994a17ab0ec078f14d251188c7e7d39a011c
+publicKey: 0xfcfe76da28fd194ff9e206973b5059bd799a6e42129fa385276cafb8978917292cd11c0dc89292855e4bb029600faf18763f3c6cd1372fff8a4006d50a103248
+walletPath: /tmp/alice_wallet
+
+channel:
+  timeout: 30s
+  fundTimeout: 30s
+  settleTimeout: 30s
+  challengeDurationSec: 120
+
+node:
+  ip: 127.0.0.1
+  port: 5751
+  dialTimeout: 30s
+  handleTimeout: 30s
+  reconnectTimeout: 20s
+  persistencePath: /tmp/alice_database
+
+chain:
+  url: ws://192.168.0.1:8546
+  contractsetup: validateordeploy
+  adjudicator: 0xf3f194a91eA1E77514F2e69e3B95457F89467C41
+  assetholder: 0x79DB73424A8b5BD4D65849De0d60aAE9d146A76f
+  txTimeout: 30s
+
+log:
+  level: full
+  file: "alice.log"

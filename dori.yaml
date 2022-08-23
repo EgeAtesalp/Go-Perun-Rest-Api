@@ -1,0 +1,29 @@
+alias: dori
+secretKey: 0xc481adbbb340591611f77b8d878ae51224ac81e7f6e4a358542ef7dece853b87
+publicKey: 0x38f5147146b77c1b874db4798a70d097d9b814ac6fd0892daf675e26b721bb6964bdaaf091ff29e95f4d3c61063eea732fa9f0a93d1adc99755cd9b0c933f565
+walletPath: /tmp/dori_wallet
+
+channel:
+  timeout: 30s
+  fundtimeout: 30s
+  settleTimeout: 30s
+  challengeDurationSec: 120
+
+node:
+  ip: 127.0.0.1
+  port: 5753
+  dialTimeout: 30s
+  handleTimeout: 30s
+  reconnectTimeout: 20s
+  persistencePath: /tmp/dori_database
+
+chain:
+  url: ws://192.168.0.1:8546
+  contractsetup: validate
+  adjudicator: 0xf3f194a91eA1E77514F2e69e3B95457F89467C41
+  assetholder: 0x79DB73424A8b5BD4D65849De0d60aAE9d146A76f
+  txTimeout: 30s
+
+log:
+  level: full
+  file: "dori.log"

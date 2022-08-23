@@ -1,0 +1,62 @@
+version: "2"
+services:
+  ubuntu-arm-64-boot:
+    privileged: true
+    image: ubuntu-arm64v8-eth:latest
+    ports:
+      - "8545:8545"
+      - "8546:8546"
+      - "6060:6060"
+      - "30303:30303"
+    environment:
+      TERM: xterm
+      NODETYPE: bootnode
+      EXTIP_BOOTNODE: ${EXTERNAL_IP}
+      INTIP_BOOTNODE: ${EXTERNAL_IP}
+      GASPRICE: 10
+      NETWORKID: 2000420101
+      ENODE: cad76a6a7e46fbad9d0d5bf23f036c1d4784f4c35e7c9bcadfff3fe8ee41a20e77a1d9aed27e2ac54d82cb6225bf184e645d99a3f970e24aaeea4d61551f2d03
+      MINER_HASH: 1e66d21a5beadc6afeb9a74e9703eab207da27f2
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./data-boot/data:/home/ubuntu/data"
+      - "./data-boot/log:/home/ubuntu/log"
+  ubuntu-arm-64-miner:
+    privileged: true
+    image: ubuntu-arm64v8-eth:latest
+    ports:
+        - "30304:30304"
+    environment:
+      NODETYPE: miner
+      EXTIP_BOOTNODE: ${EXTERNAL_BOOT_IP}
+      INTIP_BOOTNODE: ${EXTERNAL_BOOT_IP}
+      EXTIP_MINER: ${EXTERNAL_IP} # 175 ... 190
+      EXTPORT_MINER: 30304      
+      GASPRICE: 10
+      NETWORKID: 2000420101
+      ENODE: cad76a6a7e46fbad9d0d5bf23f036c1d4784f4c35e7c9bcadfff3fe8ee41a20e77a1d9aed27e2ac54d82cb6225bf184e645d99a3f970e24aaeea4d61551f2d03
+      MINER_HASH: 1e66d21a5beadc6afeb9a74e9703eab207da27f2
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./data-miner-1/data:/home/ubuntu/data-miner-1"
+      - "./data-miner-1/log:/home/ubuntu/log"
+  ubuntu-arm-64-miner2:
+    privileged: true
+    image: ubuntu-arm64v8-eth:latest
+    ports:
+        - "30305:30305"
+    environment:
+      NODETYPE: miner2
+      EXTIP_BOOTNODE: ${EXTERNAL_BOOT_IP}
+      INTIP_BOOTNODE: ${EXTERNAL_BOOT_IP}
+      EXTIP_MINER: ${EXTERNAL_IP} # 175 ... 190
+      EXTPORT_MINER: 30305
+      GASPRICE: 10
+      NETWORKID: 2000420101
+      ENODE: cad76a6a7e46fbad9d0d5bf23f036c1d4784f4c35e7c9bcadfff3fe8ee41a20e77a1d9aed27e2ac54d82cb6225bf184e645d99a3f970e24aaeea4d61551f2d03
+      MINER_HASH: 1e66d21a5beadc6afeb9a74e9703eab207da27f2
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./data-miner-2/data:/home/ubuntu/data-miner-2"
+      - "./data-miner-2/log:/home/ubuntu/log"
+

@@ -1,0 +1,33 @@
+=============== Aug 10, 2022 (UTC) ===============
+17:02:08.609036 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:02:08.777729 db@open opening
+17:02:08.797145 version@stat F·[] S·0B[] Sc·[]
+17:02:08.809906 db@janitor F·2 G·0
+17:02:08.811929 db@open done T·33.193765ms
+17:55:06.871535 memdb@flush N·36112 S·3MiB
+17:55:08.880177 memdb@flush created L0@3 N·36112 S·716KiB "loc..seq,v2":"version,v1"
+17:55:08.883161 version@stat F·[1] S·716KiB[716KiB] Sc·[0.25]
+17:55:08.886364 memdb@flush committed F·1 T·2.011208994s
+17:55:08.890188 journal@remove removed @1
+18:34:35.476930 memdb@flush N·34860 S·3MiB
+18:34:36.581192 memdb@flush created L0@5 N·34860 S·652KiB "n:\x01..:v4,v70622":"n:\xff..ong,v67538"
+18:34:36.584463 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+18:34:36.588331 memdb@flush committed F·1 T·1.109859667s
+18:34:36.604763 journal@remove removed @2
+18:34:44.425902 table@compaction L0·2 -> L1·0 S·1MiB Q·71102
+18:34:45.377691 table@build created L1@6 N·15082 S·534KiB "loc..seq,v2":"version,v1"
+18:34:45.381266 version@stat F·[0 1] S·534KiB[0B 534KiB] Sc·[0.00 0.01]
+18:34:45.387217 table@compaction committed F-1 S-834KiB Ke·0 D·55890 T·958.719635ms
+18:34:45.394096 table@remove removed @5
+18:34:45.398478 table@remove removed @3
+19:12:34.302813 memdb@flush N·34489 S·3MiB
+19:12:35.873821 memdb@flush created L0@8 N·34489 S·636KiB "n:\x01..:v4,v105457":"n:\xff..ong,v71172"
+19:12:35.875909 version@stat F·[1 1] S·1MiB[636KiB 534KiB] Sc·[0.25 0.01]
+19:12:35.879153 memdb@flush committed F·1 T·1.574610205s
+19:12:35.889769 journal@remove removed @4
+19:12:51.607286 table@compaction L0·1 -> L1·1 S·1MiB Q·105536
+19:12:52.442574 table@build created L1@9 N·19953 S·704KiB "loc..seq,v2":"version,v1"
+19:12:52.445151 version@stat F·[0 1] S·704KiB[0B 704KiB] Sc·[0.00 0.01]
+19:12:52.448385 table@compaction committed F-1 S-467KiB Ke·0 D·29618 T·839.209377ms
+19:12:52.452343 table@remove removed @8
+19:12:52.456840 table@remove removed @6

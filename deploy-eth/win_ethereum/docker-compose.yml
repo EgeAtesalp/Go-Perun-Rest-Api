@@ -1,0 +1,98 @@
+version: "2"
+services:
+  eth_local_1:
+    privileged: true
+    image: eth-local:latest
+    environment:
+      TERM: xterm
+      NODETYPE: bootnode
+      EXTIP_BOOTNODE: 192.168.178.23
+      INTIP_BOOTNODE: 192.168.178.23
+      NETMASK_RESTRICT: 192.168.178.0/24
+      GASPRICE: 10
+      NETWORKID: 2000420101
+      ENODE: b2f3fb6d033fdc691aefeeb31b3c27d68686437e73eecd282019e3dc99e69ed4e85f93b638b680374369dbb5d4ab65b305aac1aa3e5b8ffa7c5905616f8ee68b
+      MINER_HASH: 1e66d21a5beadc6afeb9a74e9703eab207da27f2
+    ports:
+      - "8545:8545"
+      - "8546:8546"
+      - "6060:6060"
+      - "30303:30303"
+    mem_limit: 4G
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./eth-local-network/node-1/root:/root/"
+      - "./eth-local-network/node-1/ubuntu:/home/ubuntu/"
+  eth_local_2:
+    privileged: true
+    image: eth-local:latest
+    depends_on:
+      - eth_local_1
+    environment:
+      TERM: xterm
+      NODETYPE: miner
+      EXTIP_BOOTNODE: 192.168.178.23
+      INTIP_BOOTNODE: 192.168.178.23
+      NETMASK_RESTRICT: 192.168.178.0/24
+      EXTIP_MINER: 192.168.178.23
+      EXTPORT_MINER: 30304
+      GASPRICE: 10
+      NETWORKID: 2000420101
+      ENODE: b2f3fb6d033fdc691aefeeb31b3c27d68686437e73eecd282019e3dc99e69ed4e85f93b638b680374369dbb5d4ab65b305aac1aa3e5b8ffa7c5905616f8ee68b
+      MINER_HASH: 1e66d21a5beadc6afeb9a74e9703eab207da27f2
+    ports:
+      - "30304:30304"
+    mem_limit: 4G
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./eth-local-network/node-2/root:/root/"
+      - "./eth-local-network/node-2/ubuntu:/home/ubuntu/"
+  eth_local_3:
+    privileged: true
+    image: eth-local:latest
+    depends_on:
+      - eth_local_1
+    environment:
+      TERM: xterm
+      NODETYPE: miner
+      EXTIP_BOOTNODE: 192.168.178.23
+      INTIP_BOOTNODE: 192.168.178.23
+      NETMASK_RESTRICT: 192.168.178.0/24
+      EXTIP_MINER: 192.168.178.23
+      EXTPORT_MINER: 30305
+      GASPRICE: 10
+      NETWORKID: 2000420101
+      ENODE: b2f3fb6d033fdc691aefeeb31b3c27d68686437e73eecd282019e3dc99e69ed4e85f93b638b680374369dbb5d4ab65b305aac1aa3e5b8ffa7c5905616f8ee68b
+      MINER_HASH: 1e66d21a5beadc6afeb9a74e9703eab207da27f2
+    ports:
+      - "30305:30305"
+    mem_limit: 4G
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./eth-local-network/node-3/root:/root/"
+      - "./eth-local-network/node-3/ubuntu:/home/ubuntu/"
+  eth_local_4:
+    privileged: true
+    image: eth-local:latest
+    depends_on:
+      - eth_local_1
+    environment:
+      TERM: xterm
+      NODETYPE: miner
+      EXTIP_BOOTNODE: 192.168.178.23
+      INTIP_BOOTNODE: 192.168.178.23
+      NETMASK_RESTRICT: 192.168.178.0/24
+      EXTIP_MINER: 192.168.178.23
+      EXTPORT_MINER: 30306
+      GASPRICE: 10
+      NETWORKID: 2000420101
+      ENODE: b2f3fb6d033fdc691aefeeb31b3c27d68686437e73eecd282019e3dc99e69ed4e85f93b638b680374369dbb5d4ab65b305aac1aa3e5b8ffa7c5905616f8ee68b
+      MINER_HASH: 1e66d21a5beadc6afeb9a74e9703eab207da27f2
+    ports:
+      - "30306:30306"
+    mem_limit: 4G
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./eth-local-network/node-4/root:/root/"
+      - "./eth-local-network/node-4/ubuntu:/home/ubuntu/"
+

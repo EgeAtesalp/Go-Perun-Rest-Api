@@ -1,0 +1,29 @@
+alias: bob
+secretKey: 0xccaf74bdf045db27843a990259a512fb3eb43196b14c766698c69cb677045c7a
+publicKey: 0x3009e45ca0f53a4edaae343dc1655444e5d6ab7c5548487835b21e174c3d748c2487905fdc4bfd2c9c471808a431d1dbdea1876bf5c9018ecfd3b9909a81492f
+walletPath: /tmp/bob_wallet
+
+channel:
+  timeout: 30s
+  fundtimeout: 30s
+  settleTimeout: 30s
+  challengeDurationSec: 120
+
+node:
+  ip: 127.0.0.1
+  port: 5750
+  dialTimeout: 30s
+  handleTimeout: 30s
+  reconnectTimeout: 20s
+  persistencePath: /tmp/bob_database
+
+chain:
+  url: ws://192.168.0.1:8546
+  contractsetup: validate
+  adjudicator: 0xf3f194a91eA1E77514F2e69e3B95457F89467C41
+  assetholder: 0x79DB73424A8b5BD4D65849De0d60aAE9d146A76f
+  txTimeout: 30s
+
+log:
+  level: full
+  file: "bob.log"

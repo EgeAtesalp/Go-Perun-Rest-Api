@@ -1,0 +1,972 @@
+{"ETH":50,"LES":0,"lvl":"info","msg":"Maximum peer count","t":"2022-08-10T17:02:07.439310601Z","total":50}
+{"lvl":"warn","msg":"The flag --rpc is deprecated and will be removed June 2021, please use --http","t":"2022-08-10T17:02:07.453795937Z"}
+{"lvl":"warn","msg":"The flag --rpcaddr is deprecated and will be removed June 2021, please use --http.addr","t":"2022-08-10T17:02:07.456774953Z"}
+{"err":"stat /run/pcscd/pcscd.comm: no such file or directory","lvl":"info","msg":"Smartcard socket not found, disabling","t":"2022-08-10T17:02:07.458753027Z"}
+{"cap":50000000,"lvl":"info","msg":"Set global gas cap","t":"2022-08-10T17:02:07.631767725Z"}
+{"clean":"154.00 MiB","dirty":"256.00 MiB","lvl":"info","msg":"Allocated trie memory caches","t":"2022-08-10T17:02:07.634890054Z"}
+{"cache":"512.00 MiB","database":"/home/ubuntu/data/data-boot/geth/chaindata","handles":524288,"lvl":"info","msg":"Allocated cache and file handles","t":"2022-08-10T17:02:07.643842362Z"}
+{"database":"/home/ubuntu/data/data-boot/geth/chaindata/ancient","lvl":"info","msg":"Opened ancient database","readonly":"false","t":"2022-08-10T17:02:08.121235362Z"}
+{"config":"{ChainID: 2000420101 Homestead: 0 DAO: \u003cnil\u003e DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: \u003cnil\u003e, Muir Glacier: \u003cnil\u003e, Berlin: \u003cnil\u003e, London: \u003cnil\u003e, Engine: clique}","lvl":"info","msg":"Initialised chain configuration","t":"2022-08-10T17:02:08.176487726Z"}
+{"dbversion":"\u003cnil\u003e","lvl":"info","msg":"Initialising Ethereum protocol","network":2000420101,"t":"2022-08-10T17:02:08.27810716Z"}
+{"age":"53y4mo2w","hash":"0x441929b02c111dd9bc698413940f00d3c72cc81eb7ac92c86dde9e654f735aea","lvl":"info","msg":"Loaded most recent local header","number":"0","t":"2022-08-10T17:02:08.37766949Z","td":"1"}
+{"age":"53y4mo2w","hash":"0x441929b02c111dd9bc698413940f00d3c72cc81eb7ac92c86dde9e654f735aea","lvl":"info","msg":"Loaded most recent local full block","number":"0","t":"2022-08-10T17:02:08.380775463Z","td":"1"}
+{"age":"53y4mo2w","hash":"0x441929b02c111dd9bc698413940f00d3c72cc81eb7ac92c86dde9e654f735aea","lvl":"info","msg":"Loaded most recent local fast block","number":"0","t":"2022-08-10T17:02:08.388235144Z","td":"1"}
+{"err":"missing or corrupted snapshot","lvl":"warn","msg":"Failed to load snapshot, regenerating","t":"2022-08-10T17:02:08.401776465Z"}
+{"lvl":"info","msg":"Rebuilding state snapshot","t":"2022-08-10T17:02:08.406987932Z"}
+{"accounts":0,"elapsed":"13.553ms","lvl":"info","msg":"Resuming state snapshot generation","root":"0x2555cb0b64dcbcf17f780aefcdea87fc6c36fcafa8ded7170be0cecf7bf9043a","slots":0,"storage":"0.00 B","t":"2022-08-10T17:02:08.422119548Z"}
+{"accounts":0,"lvl":"info","msg":"Regenerated local transaction journal","t":"2022-08-10T17:02:08.468680221Z","transactions":0}
+{"lvl":"info","msg":"Gasprice oracle is ignoring threshold set","t":"2022-08-10T17:02:08.512852757Z","threshold":"2"}
+{"accounts":2,"elapsed":"120.448ms","lvl":"info","msg":"Generated state snapshot","slots":0,"storage":"100.00 B","t":"2022-08-10T17:02:08.529017786Z"}
+{"error":"leveldb: not found","lvl":"warn","msg":"Error reading unclean shutdown markers","t":"2022-08-10T17:02:08.562955304Z"}
+{"instance":"Geth/v1.10.4-stable-aa637fd3/linux-arm64/go1.18.1","lvl":"info","msg":"Starting peer-to-peer node","t":"2022-08-10T17:02:08.574409396Z"}
+{"hash":"0x441929b02c111dd9bc698413940f00d3c72cc81eb7ac92c86dde9e654f735aea","lvl":"info","msg":"Stored checkpoint snapshot to disk","number":0,"t":"2022-08-10T17:02:08.58876767Z"}
+{"extport":30303,"interface":"ExtIP(192.168.2.136)","intport":30303,"lvl":"info","msg":"Mapped network port","proto":"tcp","t":"2022-08-10T17:02:08.835836045Z"}
+{"extport":30303,"interface":"ExtIP(192.168.2.136)","intport":30303,"lvl":"info","msg":"Mapped network port","proto":"udp","t":"2022-08-10T17:02:08.91141002Z"}
+{"id":"9f678e28f7fa80e41e2e6f8a5259e6f381c1c2cecadaf5b1be9479ac3e0873af","ip":"192.168.2.136","lvl":"info","msg":"New local node record","seq":1,"t":"2022-08-10T17:02:08.957597802Z","tcp":30303,"udp":30303}
+{"lvl":"info","msg":"Started P2P networking","self":"enode://6566b64424c52845e9069a046412bf026aa71f4df760030dabe36bdc96598f89e5cde76b08c13aa9029475e37b4286b1808f0ef0c39f61af46d6aa2c446cadcd@192.168.2.136:30303","t":"2022-08-10T17:02:09.025232308Z"}
+{"lvl":"info","msg":"IPC endpoint opened","t":"2022-08-10T17:02:09.208456866Z","url":"/home/ubuntu/data/data-boot/geth.ipc"}
+{"cors":"","endpoint":"[::]:8545","lvl":"info","msg":"HTTP server started","prefix":"","t":"2022-08-10T17:02:09.257337617Z","vhosts":"localhost"}
+{"lvl":"info","msg":"WebSocket enabled","t":"2022-08-10T17:02:09.26139725Z","url":"ws://[::]:8546"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:02:19.011022321Z","tried":92}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:02:29.262424749Z","tried":53}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:02:39.401984969Z","tried":99}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"d348bda2","t":"2022-08-10T17:02:48.392025151Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:02:49.425592433Z","tried":47}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:02:59.629949081Z","tried":32}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:03:09.647917669Z","tried":89}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:03:19.707615843Z","tried":115}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:03:29.685829621Z","tried":30}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bc8af532","t":"2022-08-10T17:03:31.336750273Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:03:39.730489775Z","tried":104}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:03:49.758127575Z","tried":49}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:03:59.798130105Z","tried":64}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:04:09.854679969Z","tried":109}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:04:20.001450115Z","tried":41}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:04:30.081219919Z","tried":111}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:04:40.217317449Z","tried":84}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:04:50.370225892Z","tried":88}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:05:00.872941898Z","tried":90}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"e1175f42","t":"2022-08-10T17:05:08.573713663Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:05:11.017273216Z","tried":119}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:05:23.072461595Z","tried":87}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"a20727fa","t":"2022-08-10T17:05:31.357514875Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"a23dedfc","t":"2022-08-10T17:05:32.029863676Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:05:33.132613096Z","tried":80}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:05:43.355666908Z","tried":80}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:05:53.350778139Z","tried":81}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:06:03.529516339Z","tried":92}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:06:13.822614594Z","tried":38}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"7bcee16b","t":"2022-08-10T17:06:17.467420611Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:06:23.866002376Z","tried":112}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:06:43.925347986Z","tried":97}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:06:54.120156839Z","tried":105}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:07:04.59392428Z","tried":61}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:07:14.6882065Z","tried":155}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:07:24.758529334Z","tried":78}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:07:34.78684316Z","tried":112}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"e1175f42","t":"2022-08-10T17:07:45.30962722Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:07:54.776438719Z","tried":86}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:08:05.34158726Z","tried":156}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:08:15.351359874Z","tried":7}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:08:25.837186221Z","tried":86}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:08:35.980311884Z","tried":38}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:08:46.240675724Z","tried":89}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:08:56.265223544Z","tried":118}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"a90b10c7","t":"2022-08-10T17:09:05.020676218Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:09:06.373706232Z","tried":74}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:09:16.441410798Z","tried":106}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:09:26.578837139Z","tried":26}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:09:36.740973718Z","tried":107}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:09:47.113865305Z","tried":5}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:09:57.132861226Z","tried":111}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:10:07.143378378Z","tried":103}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:10:17.36340004Z","tried":81}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:10:27.793773904Z","tried":89}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:10:47.880176418Z","tried":35}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:10:57.98300806Z","tried":93}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:11:09.122461994Z","tried":76}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"b5496381","t":"2022-08-10T17:11:10.780831057Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"b504b033","t":"2022-08-10T17:11:12.907807778Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:11:19.199945316Z","tried":160}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bc8af532","t":"2022-08-10T17:11:27.932170145Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T17:11:35.082449604Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:11:40.016289387Z","tried":124}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:11:50.227699986Z","tried":66}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:12:00.359513442Z","tried":97}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"ffc54465","t":"2022-08-10T17:12:07.958374085Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:12:10.45336322Z","tried":127}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:12:20.527389883Z","tried":88}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:12:30.744420454Z","tried":93}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:12:40.801088488Z","tried":85}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bb7714c1","t":"2022-08-10T17:12:41.94232103Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:12:50.868390172Z","tried":64}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c76fecb9","t":"2022-08-10T17:13:00.062036393Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:13:00.852367565Z","tried":130}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:13:10.870428907Z","tried":98}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:13:21.455302718Z","tried":102}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:13:31.468881368Z","tried":33}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:13:41.62122513Z","tried":67}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:13:51.742098688Z","tried":83}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:14:02.065008195Z","tried":120}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:14:12.133871302Z","tried":52}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:14:22.210711842Z","tried":53}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:14:32.221497564Z","tried":167}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"d5a6c885","t":"2022-08-10T17:14:32.313282557Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:14:42.244495128Z","tried":126}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:14:52.496260209Z","tried":109}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:15:02.484072274Z","tried":109}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:15:12.484559041Z","tried":10}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:15:22.515827603Z","tried":89}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:15:32.501461692Z","tried":123}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c2a54874","t":"2022-08-10T17:15:34.466039584Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c2340321","t":"2022-08-10T17:15:35.656914878Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:15:42.576861145Z","tried":122}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:15:52.669663066Z","tried":91}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"ac6f52bd","t":"2022-08-10T17:15:58.506696091Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:16:02.951322685Z","tried":64}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:16:13.378696609Z","tried":50}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:16:23.809327875Z","tried":54}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T17:16:29.22891189Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:16:34.204888559Z","tried":67}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:16:44.213267156Z","tried":113}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:17:04.197777296Z","tried":61}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:17:24.379920695Z","tried":54}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:17:35.574197274Z","tried":79}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T17:17:38.168437751Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c2a54874","t":"2022-08-10T17:17:38.620648375Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:17:45.598106144Z","tried":117}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:17:55.696743058Z","tried":92}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:18:05.69724Z","tried":67}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:18:16.008641986Z","tried":94}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T17:18:18.599224597Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:18:26.296663134Z","tried":97}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:18:37.224194131Z","tried":114}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:18:47.535150732Z","tried":104}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"d3f2bc5a","t":"2022-08-10T17:18:50.105935097Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:18:57.739850032Z","tried":83}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:19:07.975737668Z","tried":56}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:19:18.058120402Z","tried":81}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:19:28.283792133Z","tried":109}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T17:19:32.832637316Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:19:39.358776573Z","tried":86}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T17:19:42.405616508Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:19:50.42519348Z","tried":79}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:20:00.918229275Z","tried":118}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:20:10.968834036Z","tried":92}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bc8af532","t":"2022-08-10T17:20:11.375046043Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bd651303","t":"2022-08-10T17:20:13.081719525Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:20:20.970008655Z","tried":161}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:20:31.041715897Z","tried":42}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:20:41.060195193Z","tried":138}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:20:51.06190945Z","tried":77}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:21:02.360278453Z","tried":66}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:21:12.402943516Z","tried":50}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T17:21:22.996504071Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:21:32.663938753Z","tried":145}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:21:42.667010543Z","tried":73}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:21:52.648360825Z","tried":77}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:22:02.801720833Z","tried":102}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:22:12.955818251Z","tried":121}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:22:23.29659728Z","tried":105}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T17:22:32.152236506Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:22:33.32558389Z","tried":89}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:22:43.433766596Z","tried":34}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"a23dedfc","t":"2022-08-10T17:22:44.83235998Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"a20727fa","t":"2022-08-10T17:22:44.940767013Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:22:53.45446434Z","tried":114}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:23:03.492069214Z","tried":93}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:23:14.32862765Z","tried":61}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:23:25.047721119Z","tried":101}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T17:23:28.804561118Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:23:35.056648629Z","tried":154}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:23:45.105684784Z","tried":96}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:23:55.121703736Z","tried":99}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:24:05.148224134Z","tried":104}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:24:15.395402468Z","tried":102}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:24:25.451149107Z","tried":130}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:24:45.480510906Z","tried":95}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:25:05.500108085Z","tried":147}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:25:15.510815103Z","tried":90}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:25:25.983850664Z","tried":22}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"af5dfeb7","t":"2022-08-10T17:25:34.402872775Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:25:36.047087473Z","tried":131}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:25:56.335779886Z","tried":47}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:26:06.358606659Z","tried":124}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:26:17.18127613Z","tried":88}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:26:27.43763243Z","tried":103}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:26:38.291416207Z","tried":93}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:26:52.161377664Z","tried":72}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:27:02.26872413Z","tried":132}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T17:27:03.69467228Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:27:12.423149593Z","tried":59}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:27:22.483993107Z","tried":164}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:27:32.454844378Z","tried":85}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:27:42.495390359Z","tried":57}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:27:52.633685452Z","tried":120}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:28:02.669445299Z","tried":103}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:28:13.359553268Z","tried":22}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:28:23.41669835Z","tried":144}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:28:33.491147362Z","tried":79}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bc8af532","t":"2022-08-10T17:28:44.143753787Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:29:03.558191381Z","tried":80}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:29:13.575620115Z","tried":127}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bb7714c1","t":"2022-08-10T17:29:23.569149421Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:29:34.018952387Z","tried":112}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"eec7c316","t":"2022-08-10T17:29:37.968734651Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:29:44.030258134Z","tried":105}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:30:04.28184886Z","tried":55}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:30:14.314156365Z","tried":92}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:30:24.478723966Z","tried":59}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T17:30:26.166650546Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:30:34.812646317Z","tried":81}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:30:44.818122535Z","tried":46}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:30:54.86203463Z","tried":114}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:31:05.169350475Z","tried":95}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:31:15.416163693Z","tried":110}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:31:25.445135423Z","tried":119}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:31:35.754153393Z","tried":122}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:31:45.78870127Z","tried":19}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:31:55.967878579Z","tried":77}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:32:06.166909513Z","tried":39}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:32:16.177593814Z","tried":133}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"82a66743","t":"2022-08-10T17:32:18.046175224Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:32:26.16897923Z","tried":71}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:32:36.441067268Z","tried":24}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:32:46.765151825Z","tried":34}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:32:56.867908042Z","tried":77}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:33:06.903972818Z","tried":107}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:33:17.011904065Z","tried":97}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:33:27.422618665Z","tried":107}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:33:37.470144304Z","tried":91}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:33:47.681884074Z","tried":97}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:33:57.858485883Z","tried":51}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T17:33:59.730979384Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:34:07.899197225Z","tried":117}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T17:34:10.687572873Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:34:17.933329032Z","tried":71}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:34:27.98129787Z","tried":88}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:34:37.998832659Z","tried":115}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:34:50.537682867Z","tried":102}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:35:00.590876364Z","tried":87}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:35:20.643574403Z","tried":49}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bc8af532","t":"2022-08-10T17:35:23.931641743Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:35:30.890008085Z","tried":78}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:35:41.276009732Z","tried":72}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:35:51.406104841Z","tried":60}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:36:01.368759744Z","tried":96}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:36:11.410578841Z","tried":90}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:36:21.576094399Z","tried":9}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T17:36:21.986377666Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:36:31.838773662Z","tried":99}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:36:42.120138127Z","tried":50}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:36:52.282497683Z","tried":108}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:37:02.297639635Z","tried":112}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:37:12.331946795Z","tried":68}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:37:22.395771138Z","tried":56}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c2a54874","t":"2022-08-10T17:37:23.311683224Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:37:42.415666619Z","tried":42}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:38:02.71360337Z","tried":105}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bc8af532","t":"2022-08-10T17:38:09.410172434Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:38:12.781201662Z","tried":115}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:38:22.788374868Z","tried":82}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:38:33.30820647Z","tried":79}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:38:43.533107302Z","tried":99}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:38:53.58505248Z","tried":138}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:39:03.810153057Z","tried":11}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:39:14.040905644Z","tried":70}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bd651303","t":"2022-08-10T17:39:16.96246621Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bc8af532","t":"2022-08-10T17:39:17.447557206Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"e1ea8ede","t":"2022-08-10T17:39:23.342695673Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:39:24.051659936Z","tried":164}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:39:34.056815477Z","tried":49}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:39:49.711004509Z","tried":95}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:40:00.439935882Z","tried":148}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:40:10.508846332Z","tried":100}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:40:20.554225223Z","tried":51}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:40:30.810141806Z","tried":89}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:40:40.837511337Z","tried":85}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:40:51.069790606Z","tried":136}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:41:01.061745448Z","tried":99}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:41:11.103754161Z","tried":124}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"e1175f42","t":"2022-08-10T17:41:11.659344635Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"e118b10a","t":"2022-08-10T17:41:11.88526357Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:41:21.134237977Z","tried":129}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:41:41.223908818Z","tried":33}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:41:52.007820307Z","tried":111}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:42:02.553463324Z","tried":98}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:42:12.58909261Z","tried":84}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:42:22.636241154Z","tried":59}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"b5496381","t":"2022-08-10T17:42:23.93379789Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"b504b033","t":"2022-08-10T17:42:24.936490972Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:42:32.628140744Z","tried":119}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c2a54874","t":"2022-08-10T17:42:34.603737261Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:42:42.656050273Z","tried":140}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:42:52.705717951Z","tried":103}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:43:02.750416079Z","tried":166}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:43:12.750457061Z","tried":66}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:43:22.980797333Z","tried":61}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:43:43.057171297Z","tried":116}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:43:53.24531579Z","tried":62}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bc8af532","t":"2022-08-10T17:44:01.883864573Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:44:03.323931483Z","tried":70}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:44:13.419830064Z","tried":122}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:44:23.432137971Z","tried":116}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T17:44:23.942283258Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:44:33.47253529Z","tried":85}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:44:43.476624764Z","tried":114}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bc8af532","t":"2022-08-10T17:44:45.087260255Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:44:53.600832599Z","tried":96}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:45:03.622659708Z","tried":148}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"aa48d7b3","t":"2022-08-10T17:45:04.712347567Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:45:13.648455359Z","tried":130}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:45:23.686943805Z","tried":17}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:45:43.884331431Z","tried":151}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bc8af532","t":"2022-08-10T17:45:50.922417108Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:45:54.224044518Z","tried":97}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:46:14.257668981Z","tried":61}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c2a54874","t":"2022-08-10T17:46:16.977592921Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c2340321","t":"2022-08-10T17:46:18.056198861Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:46:24.524715206Z","tried":117}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c76fecb9","t":"2022-08-10T17:46:28.090854849Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:46:34.551916518Z","tried":89}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"a465b61e","t":"2022-08-10T17:46:40.733325963Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:46:44.724525875Z","tried":84}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:47:04.748229271Z","tried":110}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:47:14.831248228Z","tried":78}
+{"address":"0x1e66D21a5BEADC6AfeB9a74E9703EaB207Da27f2","lvl":"info","msg":"Setting new local account","t":"2022-08-10T17:47:24.814342136Z"}
+{"contract":"0x02CdE2e77987fB35B4F6ed514E72eCa1Be438156","from":"0x1e66D21a5BEADC6AfeB9a74E9703EaB207Da27f2","hash":"0x8b3d2ec9d01a1dae7c60cf45e505b8dabf83faef7c064e0a27de2a970efb0520","lvl":"info","msg":"Submitted contract creation","nonce":0,"t":"2022-08-10T17:47:24.831607224Z","value":"0"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:47:25.161601211Z","tried":114}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:47:35.168694923Z","tried":115}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:47:45.402092261Z","tried":28}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:47:55.510023436Z","tried":5}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"cbd3f861","t":"2022-08-10T17:47:59.531844652Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:48:05.600755018Z","tried":117}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:48:15.896626771Z","tried":24}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:48:29.116312807Z","tried":117}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:48:39.187953271Z","tried":86}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:48:49.234081869Z","tried":41}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bc8af532","t":"2022-08-10T17:48:51.251447347Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:48:59.357275482Z","tried":165}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:49:09.395975539Z","tried":31}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:49:19.417250874Z","tried":194}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:49:29.571477516Z","tried":49}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:49:39.878289122Z","tried":127}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:49:50.323563111Z","tried":165}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:50:00.399885298Z","tried":70}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T17:50:08.19673921Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:50:10.443731293Z","tried":124}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:50:20.533479148Z","tried":105}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:50:30.654653013Z","tried":18}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:50:40.734839434Z","tried":92}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:50:50.74032277Z","tried":93}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:51:00.74226656Z","tried":111}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:51:10.97756941Z","tried":18}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:51:21.259606461Z","tried":60}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:51:31.424228482Z","tried":82}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:51:41.463146326Z","tried":85}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:51:51.578490192Z","tried":64}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:52:01.570266851Z","tried":84}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:52:11.642078876Z","tried":124}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"82a66743","t":"2022-08-10T17:52:14.847017157Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:52:21.694712872Z","tried":145}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T17:52:31.665205592Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:52:31.686772753Z","tried":92}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:52:41.873987779Z","tried":126}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:52:51.900340261Z","tried":75}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:53:02.474719095Z","tried":106}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:53:12.47786585Z","tried":55}
+{"contract":"0x70215Be1F2Ff039709E057a41c4cae3218206605","from":"0x1e66D21a5BEADC6AfeB9a74E9703EaB207Da27f2","hash":"0x9fc630ecffed46c5df76eba666bd289dd78a892ff74efe5a7714dab4f31e64a2","lvl":"info","msg":"Submitted contract creation","nonce":1,"t":"2022-08-10T17:53:18.728938241Z","value":"0"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"decab1a9","t":"2022-08-10T17:53:23.852161246Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:53:32.528141672Z","tried":101}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:53:42.63003324Z","tried":40}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:53:52.637693062Z","tried":133}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:54:02.661160943Z","tried":150}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:54:12.72644083Z","tried":44}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:54:23.319682798Z","tried":129}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T17:54:41.27769709Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:54:53.615612561Z","tried":46}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:55:04.295761064Z","tried":143}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:55:14.366285189Z","tried":64}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:55:34.415176528Z","tried":140}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T17:55:37.780090444Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:55:44.921316387Z","tried":97}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:55:54.936799826Z","tried":85}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:56:05.109027685Z","tried":129}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:56:15.693610256Z","tried":115}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:56:25.777507717Z","tried":140}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:56:36.063725559Z","tried":67}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"eec7c316","t":"2022-08-10T17:56:45.867448857Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:56:46.084006669Z","tried":103}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:56:56.07127923Z","tried":145}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:57:06.216115926Z","tried":58}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:57:16.288261827Z","tried":18}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:57:27.064605925Z","tried":74}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bc8af532","t":"2022-08-10T17:57:31.142386355Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bd651303","t":"2022-08-10T17:57:32.213101685Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"d5a6c885","t":"2022-08-10T17:57:36.392095632Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T17:57:37.129116048Z","tried":154}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:57:47.164669755Z","tried":94}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c2a54874","t":"2022-08-10T17:57:50.293675497Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:58:00.029604022Z","tried":109}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:58:10.093835319Z","tried":68}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:58:20.318102964Z","tried":103}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:58:30.390680163Z","tried":42}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:58:40.494058911Z","tried":152}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:58:50.634024682Z","tried":22}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"e0963484","t":"2022-08-10T17:58:52.391911117Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bc8af532","t":"2022-08-10T17:59:00.474609048Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bd651303","t":"2022-08-10T17:59:01.479578495Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:59:10.688586914Z","tried":67}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:59:20.82343369Z","tried":109}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"1125cc47","t":"2022-08-10T17:59:21.541703683Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:59:30.864329807Z","tried":62}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T17:59:41.355662959Z","tried":68}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T17:59:51.368823067Z","tried":116}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:00:01.358558677Z","tried":120}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:00:11.391768735Z","tried":113}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:00:21.404898164Z","tried":80}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:00:31.448901517Z","tried":109}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T18:00:35.616911155Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:00:42.144168446Z","tried":109}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:00:52.167641295Z","tried":101}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:01:02.447316217Z","tried":89}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:01:12.49428528Z","tried":96}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:01:22.549749812Z","tried":111}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:01:32.552018594Z","tried":136}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:01:42.786127244Z","tried":81}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:02:02.778133648Z","tried":69}
+{"lvl":"info","msg":"Writing clean trie cache to disk","path":"/home/ubuntu/data/data-boot/geth/triecache","t":"2022-08-10T18:02:05.987104182Z","threads":1}
+{"accounts":1,"lvl":"info","msg":"Regenerated local transaction journal","t":"2022-08-10T18:02:06.051575549Z","transactions":2}
+{"elapsed":"69.140ms","lvl":"info","msg":"Persisted the clean trie cache","path":"/home/ubuntu/data/data-boot/geth/triecache","t":"2022-08-10T18:02:06.057899251Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:02:12.798742751Z","tried":101}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:02:22.900685905Z","tried":21}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c2a54874","t":"2022-08-10T18:02:23.758325588Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:02:32.909133867Z","tried":166}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:02:42.936715056Z","tried":93}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:02:53.02370996Z","tried":85}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:03:03.099456868Z","tried":23}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:03:13.099795575Z","tried":73}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:03:23.235163889Z","tried":59}
+{"contract":"0xf3f194a91eA1E77514F2e69e3B95457F89467C41","from":"0x1e66D21a5BEADC6AfeB9a74E9703EaB207Da27f2","hash":"0x2d1b3617a8e0df06e46440a0d0d6a6be6751f63d1d30ca44c44abb8b7b3b85f2","lvl":"info","msg":"Submitted contract creation","nonce":2,"t":"2022-08-10T18:03:35.460906181Z","value":"0"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:03:45.637388347Z","tried":103}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"a20727fa","t":"2022-08-10T18:03:52.132378939Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"9a5eb74a","t":"2022-08-10T18:03:54.738001005Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"e1ea8ede","t":"2022-08-10T18:03:58.14119593Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"e1175f42","t":"2022-08-10T18:03:58.497797395Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:04:05.620601685Z","tried":192}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:04:15.693968101Z","tried":106}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:04:26.001697557Z","tried":122}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"d5a6c885","t":"2022-08-10T18:04:27.308196791Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c2a54874","t":"2022-08-10T18:04:33.903972965Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:04:36.038479739Z","tried":155}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:04:46.061693274Z","tried":61}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:04:56.052739186Z","tried":124}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:05:06.793086313Z","tried":94}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:05:16.990724936Z","tried":131}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:05:37.04599674Z","tried":109}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:05:47.062774807Z","tried":89}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"e6ad1738","t":"2022-08-10T18:05:56.828329889Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:06:09.139705596Z","tried":71}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T18:06:18.151398707Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:06:19.228684221Z","tried":122}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:06:29.37319727Z","tried":115}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:06:39.456932581Z","tried":66}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:06:49.476830008Z","tried":67}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T18:06:56.328144673Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"9a5eb74a","t":"2022-08-10T18:06:57.34435892Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:06:59.475186124Z","tried":79}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:07:09.610872154Z","tried":99}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:07:19.625354476Z","tried":65}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:07:29.991433553Z","tried":154}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:07:40.087670783Z","tried":67}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"9a5eb74a","t":"2022-08-10T18:07:49.421130349Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:07:50.116343799Z","tried":95}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:08:00.154127127Z","tried":139}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:08:11.682780734Z","tried":92}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"cb5b9771","t":"2022-08-10T18:08:16.963034151Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:08:21.690222381Z","tried":113}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c2a54874","t":"2022-08-10T18:08:27.29977989Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:08:32.185482573Z","tried":104}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:08:42.486159371Z","tried":143}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:08:52.547664011Z","tried":128}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:09:02.606580137Z","tried":82}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:09:12.688624597Z","tried":181}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:09:22.805567557Z","tried":61}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"a23dedfc","t":"2022-08-10T18:09:23.904699968Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"a20727fa","t":"2022-08-10T18:09:24.768186854Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:09:32.886734518Z","tried":107}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:09:53.070678823Z","tried":120}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c2a54874","t":"2022-08-10T18:09:54.336843074Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:10:03.142539362Z","tried":152}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:10:13.145821729Z","tried":115}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:10:23.17802957Z","tried":74}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:10:33.377666943Z","tried":84}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:10:43.441808293Z","tried":128}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:10:53.446711337Z","tried":85}
+{"contract":"0x79DB73424A8b5BD4D65849De0d60aAE9d146A76f","from":"0x1e66D21a5BEADC6AfeB9a74E9703EaB207Da27f2","hash":"0x9dc3ac7c998ce7cded4f35a97ee31808dd5af236d7718870f9467f02b17eb5c9","lvl":"info","msg":"Submitted contract creation","nonce":3,"t":"2022-08-10T18:10:55.486430895Z","value":"0"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:11:03.52303383Z","tried":91}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:11:13.553326946Z","tried":108}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:11:23.682019341Z","tried":43}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:11:33.684073641Z","tried":112}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:11:44.341330443Z","tried":53}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"aab3bbde","t":"2022-08-10T18:11:45.484465433Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:11:54.641476839Z","tried":56}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:12:04.901115771Z","tried":1}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:12:24.959204072Z","tried":66}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:12:34.962576187Z","tried":142}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:12:44.97936794Z","tried":69}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"cbd3f861","t":"2022-08-10T18:12:53.505271395Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:12:55.184613429Z","tried":110}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:13:05.192434849Z","tried":78}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bc8af532","t":"2022-08-10T18:13:11.035110052Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:13:15.223257292Z","tried":94}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:13:35.259406345Z","tried":144}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:13:45.314206603Z","tried":84}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:13:55.47304595Z","tried":110}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:14:05.545347286Z","tried":111}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:14:15.784265427Z","tried":71}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"a05e766c","t":"2022-08-10T18:14:21.431854608Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:14:25.773656871Z","tried":91}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:14:36.200929901Z","tried":65}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"88f932f1","t":"2022-08-10T18:14:41.316686796Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:14:46.22576562Z","tried":118}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:14:56.31226654Z","tried":90}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:15:07.488013399Z","tried":103}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:15:17.494875329Z","tried":112}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:15:27.630065601Z","tried":107}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:15:37.633555507Z","tried":136}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:15:47.671440338Z","tried":52}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:15:57.675707852Z","tried":150}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:16:08.206206615Z","tried":105}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:16:28.245022918Z","tried":73}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:16:38.33471327Z","tried":83}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:16:48.652731859Z","tried":102}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:17:08.840394636Z","tried":94}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:17:19.078955661Z","tried":32}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T18:17:20.279443414Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:17:29.154909658Z","tried":98}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:17:39.366152167Z","tried":25}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:17:49.446696873Z","tried":68}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:17:59.539919905Z","tried":22}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:18:12.210581554Z","tried":81}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:18:22.29465367Z","tried":99}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:18:32.305530262Z","tried":33}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"ac6f52bd","t":"2022-08-10T18:18:41.023478813Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:18:42.332595388Z","tried":107}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"925ab3ac","t":"2022-08-10T18:18:46.702511328Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:18:52.335394863Z","tried":87}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:19:02.784531993Z","tried":12}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:19:12.862872602Z","tried":104}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c76fecb9","t":"2022-08-10T18:19:13.329245371Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:19:22.936808427Z","tried":151}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:19:33.211531087Z","tried":64}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:19:43.272595089Z","tried":104}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:19:53.8909287Z","tried":84}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T18:19:59.431317972Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"9a5eb74a","t":"2022-08-10T18:20:00.193510659Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:20:04.443515603Z","tried":102}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:20:14.649806758Z","tried":58}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:20:34.765675574Z","tried":131}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:20:44.789349654Z","tried":87}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:20:55.485700377Z","tried":201}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:21:05.49007246Z","tried":56}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:21:35.524440849Z","tried":112}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:21:45.845094464Z","tried":97}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bb7714c1","t":"2022-08-10T18:21:57.950124233Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T18:22:02.529070352Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:22:06.40292195Z","tried":138}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:22:16.448645684Z","tried":9}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:22:26.61905626Z","tried":82}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:22:36.716201609Z","tried":46}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T18:22:39.173378882Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:22:47.475942745Z","tried":79}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:22:57.657655609Z","tried":86}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:23:07.77445809Z","tried":60}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"ba83bd0f","t":"2022-08-10T18:23:23.382403704Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:23:27.924636991Z","tried":94}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:23:37.930265919Z","tried":105}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:23:48.348265193Z","tried":98}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:23:58.327662825Z","tried":53}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T18:24:02.002931425Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:24:08.506396738Z","tried":104}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"ba83bd0f","t":"2022-08-10T18:24:17.695012337Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:24:18.572646463Z","tried":114}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:24:28.611061275Z","tried":129}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"b504b033","t":"2022-08-10T18:24:36.118658463Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"e118b10a","t":"2022-08-10T18:24:42.44485134Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"e1175f42","t":"2022-08-10T18:24:43.0816052Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:24:48.659270004Z","tried":119}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"a23dedfc","t":"2022-08-10T18:24:54.393722581Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:24:58.747350864Z","tried":100}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:25:08.797942476Z","tried":91}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:25:19.494742058Z","tried":104}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:25:29.964999562Z","tried":82}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:25:39.979915666Z","tried":104}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"d77a3ca8","t":"2022-08-10T18:25:43.252458559Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:25:50.01634566Z","tried":98}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:26:00.018450284Z","tried":137}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:26:10.049069173Z","tried":64}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:26:20.495715683Z","tried":59}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:26:31.223123131Z","tried":65}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:26:41.309486697Z","tried":142}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:26:51.629857993Z","tried":101}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c76fecb9","t":"2022-08-10T18:26:58.009710657Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:27:02.000452847Z","tried":100}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:27:12.040645604Z","tried":103}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:27:22.036690425Z","tried":59}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:27:42.250765966Z","tried":58}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T18:27:51.761433729Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:28:02.537641253Z","tried":134}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"925ab3ac","t":"2022-08-10T18:28:11.86394778Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:28:12.614866054Z","tried":140}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:28:23.541810101Z","tried":101}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:28:33.583098161Z","tried":81}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bd651303","t":"2022-08-10T18:28:35.414678786Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:28:43.929634947Z","tried":124}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:28:53.984041213Z","tried":12}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:29:04.064997383Z","tried":122}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:29:14.212431277Z","tried":22}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:29:24.252356786Z","tried":96}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c2a54874","t":"2022-08-10T18:29:29.756564167Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:29:34.282768076Z","tried":94}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:29:44.357530332Z","tried":78}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:29:54.549535287Z","tried":78}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:30:04.58980719Z","tried":126}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T18:30:08.87425169Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:30:14.597469274Z","tried":68}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:30:34.814881607Z","tried":119}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:30:44.849246326Z","tried":111}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T18:30:50.601014172Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:30:55.015135097Z","tried":73}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:31:05.527452946Z","tried":129}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:31:15.59994338Z","tried":26}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:31:25.606847297Z","tried":115}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:31:35.742746259Z","tried":92}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:31:56.042626977Z","tried":53}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:32:06.083625289Z","tried":110}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:32:16.083871173Z","tried":92}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T18:32:21.237354642Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f07fa853","t":"2022-08-10T18:32:23.901095014Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:32:26.423006597Z","tried":151}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:32:46.601223613Z","tried":130}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"eec7c316","t":"2022-08-10T18:32:48.394934429Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:32:56.639399188Z","tried":63}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:33:16.828592487Z","tried":119}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"e1ea8ede","t":"2022-08-10T18:33:25.943605274Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:33:26.821565626Z","tried":119}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:33:46.977502408Z","tried":114}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:33:56.967709412Z","tried":97}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:34:07.121787101Z","tried":94}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:34:17.139664004Z","tried":163}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:34:27.14667632Z","tried":114}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:34:37.202680176Z","tried":26}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:34:47.217501569Z","tried":188}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:34:57.359150664Z","tried":70}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:35:07.462422157Z","tried":84}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T18:35:08.755834859Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:35:17.606061151Z","tried":117}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:35:27.629411305Z","tried":89}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:35:37.96728263Z","tried":102}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:35:48.355126435Z","tried":10}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:35:58.416499923Z","tried":108}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c2a54874","t":"2022-08-10T18:36:06.250075931Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:36:08.419689497Z","tried":184}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:36:18.78195945Z","tried":91}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T18:36:27.600324694Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:36:38.865881708Z","tried":148}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:36:48.990986457Z","tried":50}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:37:09.196058858Z","tried":50}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:37:19.315829862Z","tried":116}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:37:29.367398018Z","tried":120}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:37:39.380762465Z","tried":72}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:37:59.550666803Z","tried":136}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:38:09.612553541Z","tried":46}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:38:19.839798304Z","tried":95}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:38:29.931156371Z","tried":95}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"a20727fa","t":"2022-08-10T18:38:31.276825802Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"a610e11b","t":"2022-08-10T18:38:38.641499714Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:38:40.398852878Z","tried":97}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:38:50.489942752Z","tried":118}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:39:00.701034412Z","tried":102}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:39:11.007084277Z","tried":12}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:39:31.006179971Z","tried":82}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:39:41.895894056Z","tried":108}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:39:51.87555103Z","tried":15}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:40:01.879933702Z","tried":139}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:40:11.960155626Z","tried":82}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bd651303","t":"2022-08-10T18:40:14.298561827Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:40:22.766701223Z","tried":131}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c2a54874","t":"2022-08-10T18:40:26.441150075Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:40:32.767348795Z","tried":169}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:40:42.774456954Z","tried":79}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:40:52.849215002Z","tried":111}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"eec7c316","t":"2022-08-10T18:40:56.69615619Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:41:02.896010513Z","tried":81}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:41:14.090100563Z","tried":101}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:41:24.180330844Z","tried":144}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c2a54874","t":"2022-08-10T18:41:28.690355273Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:41:34.271457932Z","tried":115}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T18:41:43.601792243Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"9a5eb74a","t":"2022-08-10T18:41:44.322065049Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:41:54.874382832Z","tried":65}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:42:04.95418224Z","tried":92}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c76fecb9","t":"2022-08-10T18:42:09.01598973Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:42:15.541930188Z","tried":107}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:42:25.527182594Z","tried":127}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:42:35.533900264Z","tried":98}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c8f125c8","t":"2022-08-10T18:42:41.496162618Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T18:42:53.581875607Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:42:55.892145255Z","tried":106}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:43:05.89279362Z","tried":178}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:43:15.964742055Z","tried":84}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:43:26.085923576Z","tried":105}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:43:36.155808596Z","tried":128}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:43:46.25090087Z","tried":114}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:43:56.268926937Z","tried":97}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:44:16.276840635Z","tried":131}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:44:26.317356294Z","tried":115}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"88f932f1","t":"2022-08-10T18:44:33.28700386Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:44:36.32983434Z","tried":88}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T18:44:46.116436713Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:44:46.330026316Z","tried":40}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"9a5eb74a","t":"2022-08-10T18:44:47.339490877Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:44:56.316992381Z","tried":73}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"a465b61e","t":"2022-08-10T18:45:01.387313583Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:45:06.324255501Z","tried":72}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:45:16.328973193Z","tried":105}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T18:45:35.554987399Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:45:36.596036484Z","tried":67}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"9a5eb74a","t":"2022-08-10T18:45:38.244290605Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:45:46.640661125Z","tried":61}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:45:56.776758202Z","tried":92}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:46:06.888746196Z","tried":123}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:46:17.109281332Z","tried":106}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:46:27.175943807Z","tried":62}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"e6ad1738","t":"2022-08-10T18:46:34.970269404Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:46:37.266476215Z","tried":122}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:46:47.351733515Z","tried":21}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:46:57.403670352Z","tried":104}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:47:07.535222294Z","tried":90}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:47:17.599258252Z","tried":45}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:47:27.579513326Z","tried":108}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"eec7c316","t":"2022-08-10T18:47:29.29081191Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:47:37.660981511Z","tried":127}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:47:47.820134446Z","tried":108}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:47:57.954804726Z","tried":50}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:48:18.389447981Z","tried":47}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:48:28.401843023Z","tried":85}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:48:38.447138638Z","tried":132}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:48:48.483284492Z","tried":120}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:48:58.463726417Z","tried":70}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:49:08.48347027Z","tried":102}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:49:28.487672768Z","tried":139}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:49:38.542468523Z","tried":108}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bc8af532","t":"2022-08-10T18:49:44.021852018Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bd651303","t":"2022-08-10T18:49:45.090013312Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:49:48.558129067Z","tried":114}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:49:58.633739731Z","tried":25}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:50:18.665338727Z","tried":47}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:50:28.730689391Z","tried":148}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c2a54874","t":"2022-08-10T18:50:31.231807539Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:50:39.239584641Z","tried":168}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:50:49.274177187Z","tried":91}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c8f125c8","t":"2022-08-10T18:50:50.367845767Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:50:59.262450865Z","tried":25}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:51:09.268562778Z","tried":103}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:51:19.277624133Z","tried":89}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:51:29.536517806Z","tried":18}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:51:39.663042401Z","tried":66}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"88f932f1","t":"2022-08-10T18:51:44.328159618Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:52:00.055716638Z","tried":65}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:52:20.075923516Z","tried":61}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:52:30.071490151Z","tried":109}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:52:41.28470312Z","tried":97}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c5b271da","t":"2022-08-10T18:52:51.534078021Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:53:01.363527067Z","tried":70}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:53:11.50666459Z","tried":170}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:53:21.787026586Z","tried":29}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:53:31.916855022Z","tried":101}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:53:41.951964584Z","tried":143}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:53:52.21663891Z","tried":116}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c76fecb9","t":"2022-08-10T18:53:58.998577627Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:54:02.605710441Z","tried":118}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T18:54:03.594610332Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:54:12.751001265Z","tried":91}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:54:42.920694419Z","tried":55}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:54:53.086962093Z","tried":145}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:55:03.551403623Z","tried":89}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:55:15.737758094Z","tried":77}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"82a66743","t":"2022-08-10T18:55:20.429660514Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:55:27.304284005Z","tried":114}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:55:37.350140136Z","tried":78}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T18:55:40.146472277Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:55:47.356824085Z","tried":194}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"aab3bbde","t":"2022-08-10T18:55:57.314324622Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:56:07.565583883Z","tried":64}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"d348bda2","t":"2022-08-10T18:56:11.926713624Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:56:18.026249776Z","tried":93}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:56:40.384463909Z","tried":34}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:56:50.995583741Z","tried":109}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bc8af532","t":"2022-08-10T18:56:53.181439172Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bd651303","t":"2022-08-10T18:56:53.937843439Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:57:01.005288406Z","tried":98}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"a72dbbb2","t":"2022-08-10T18:57:02.358283432Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:57:21.083847001Z","tried":79}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:57:31.173422078Z","tried":19}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:57:41.901771982Z","tried":123}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:57:52.428337135Z","tried":99}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:58:12.729858137Z","tried":86}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:58:22.74033303Z","tried":134}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:58:32.748597443Z","tried":105}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T18:58:42.968174136Z","tried":86}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:58:52.974842802Z","tried":78}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:59:03.348481699Z","tried":72}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:59:13.372772193Z","tried":88}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"eec7c316","t":"2022-08-10T18:59:13.88523192Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T18:59:23.371192737Z","tried":154}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:59:33.401964229Z","tried":137}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:59:43.883029654Z","tried":120}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T18:59:53.875233299Z","tried":30}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T19:00:13.91016925Z","tried":98}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:00:23.894524325Z","tried":109}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:00:35.369404653Z","tried":173}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:00:46.295576259Z","tried":93}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:00:56.71992954Z","tried":103}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:01:06.734024524Z","tried":96}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:01:26.788233591Z","tried":100}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T19:01:34.71696277Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:01:36.840609194Z","tried":88}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T19:01:46.856282571Z","tried":108}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"a05e766c","t":"2022-08-10T19:01:54.051165841Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T19:01:56.845958236Z","tried":131}
+{"lvl":"info","msg":"Writing clean trie cache to disk","path":"/home/ubuntu/data/data-boot/geth/triecache","t":"2022-08-10T19:02:03.533384029Z","threads":1}
+{"elapsed":"52.551ms","lvl":"info","msg":"Persisted the clean trie cache","path":"/home/ubuntu/data/data-boot/geth/triecache","t":"2022-08-10T19:02:03.586678922Z"}
+{"accounts":1,"lvl":"info","msg":"Regenerated local transaction journal","t":"2022-08-10T19:02:03.603568622Z","transactions":4}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:02:06.892765081Z","tried":119}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:02:17.118094352Z","tried":77}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T19:02:27.119087622Z","tried":110}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:02:37.38376644Z","tried":78}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:02:47.399325452Z","tried":23}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T19:02:56.122686605Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"a20727fa","t":"2022-08-10T19:03:06.369333574Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:03:07.48235355Z","tried":137}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"af5dfeb7","t":"2022-08-10T19:03:13.514147438Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:03:17.643291711Z","tried":86}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:03:37.786339776Z","tried":158}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c76fecb9","t":"2022-08-10T19:03:44.694225468Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:03:47.806313093Z","tried":133}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:03:59.470993241Z","tried":40}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:04:09.582017329Z","tried":127}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T19:04:19.588080835Z","tried":50}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:04:29.571985442Z","tried":70}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bc8af532","t":"2022-08-10T19:04:31.771346754Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:04:39.666106216Z","tried":67}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"ba83bd0f","t":"2022-08-10T19:04:49.373421677Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T19:04:49.76765796Z","tried":175}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:05:00.222335391Z","tried":60}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"d77a3ca8","t":"2022-08-10T19:05:18.279402024Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:05:20.416890405Z","tried":119}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:05:30.603739089Z","tried":40}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T19:05:36.647835891Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T19:05:40.639862776Z","tried":104}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:05:50.731590596Z","tried":58}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:06:00.974635997Z","tried":71}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:06:11.481063521Z","tried":86}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T19:06:21.48049757Z","tried":140}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T19:06:31.48053724Z","tried":140}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:06:42.260769893Z","tried":103}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:06:52.270083677Z","tried":110}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:07:02.278144125Z","tried":88}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T19:07:08.979543058Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:07:12.401879045Z","tried":81}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:07:22.994993787Z","tried":29}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"88f932f1","t":"2022-08-10T19:07:27.033848707Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:07:33.020495001Z","tried":68}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"aa48d7b3","t":"2022-08-10T19:07:42.893207391Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T19:07:43.038262812Z","tried":141}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T19:07:53.132451466Z","tried":52}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c76fecb9","t":"2022-08-10T19:07:59.877318743Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:08:03.843378868Z","tried":109}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:08:13.865684692Z","tried":86}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:08:24.568181872Z","tried":90}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:08:34.569357558Z","tried":136}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:08:44.61426952Z","tried":55}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:08:54.595128995Z","tried":21}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"089e2e46","t":"2022-08-10T19:09:10.863445251Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:09:14.896093055Z","tried":122}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:09:25.32226267Z","tried":105}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:09:35.436442042Z","tried":22}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"ba83bd0f","t":"2022-08-10T19:09:39.058119413Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:09:55.638178969Z","tried":122}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:10:05.736145942Z","tried":31}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:10:25.840263907Z","tried":122}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:10:46.258141945Z","tried":87}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:10:56.344874697Z","tried":107}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T19:11:06.407351125Z","tried":97}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:11:16.726567146Z","tried":38}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:11:26.864154007Z","tried":60}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:11:36.893389838Z","tried":93}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:11:47.378035513Z","tried":56}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T19:12:07.433245468Z","tried":90}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T19:12:17.442578983Z","tried":121}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:12:27.639800175Z","tried":57}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:12:38.589105376Z","tried":103}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:12:48.592259637Z","tried":120}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T19:12:53.762181918Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:12:58.792656893Z","tried":119}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"eec7c316","t":"2022-08-10T19:13:06.094285433Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:13:08.811128604Z","tried":128}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:13:18.833516325Z","tried":108}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:13:28.858324198Z","tried":110}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T19:13:38.877235674Z","tried":88}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:13:49.108315532Z","tried":114}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:13:59.102292309Z","tried":138}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:14:09.227766831Z","tried":115}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"92a3f6f8","t":"2022-08-10T19:14:11.884517929Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:14:29.228281243Z","tried":105}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:14:49.37762366Z","tried":25}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:14:59.671393677Z","tried":81}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T19:15:09.680813745Z","tried":121}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:15:19.801698041Z","tried":103}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T19:15:29.815376667Z","tried":96}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T19:15:39.885815407Z","tried":78}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c2a54874","t":"2022-08-10T19:15:48.638764764Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"c2340321","t":"2022-08-10T19:15:50.637821157Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T19:15:59.92196094Z","tried":62}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:16:31.998541067Z","tried":147}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bc8af532","t":"2022-08-10T19:16:35.671507401Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:16:42.214154933Z","tried":118}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:16:52.206908753Z","tried":101}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"88f932f1","t":"2022-08-10T19:16:56.023286046Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:17:02.254834322Z","tried":135}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:17:12.58085189Z","tried":83}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"bc8af532","t":"2022-08-10T19:17:18.738689416Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:17:23.1283958Z","tried":94}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:17:33.158498548Z","tried":197}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T19:17:53.139947429Z","tried":160}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:18:03.172611339Z","tried":112}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T19:18:11.57475499Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:18:23.166760333Z","tried":122}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"98998f1a","t":"2022-08-10T19:18:40.290665461Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:18:43.698683426Z","tried":132}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:18:54.018753149Z","tried":77}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:19:14.21526474Z","tried":116}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:19:24.31634372Z","tried":14}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"f343148b","t":"2022-08-10T19:19:26.461817298Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:19:34.383579481Z","tried":160}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:19:44.835937948Z","tried":87}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:19:55.114912884Z","tried":115}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:20:05.895919837Z","tried":103}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T19:20:26.08948264Z","tried":98}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"d77a3ca8","t":"2022-08-10T19:20:33.529531283Z"}
+{"err":"peer connected on snap without compatible eth support","lvl":"eror","msg":"Snapshot extension registration failed","peer":"ffc54465","t":"2022-08-10T19:20:34.816531389Z"}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:20:36.398910927Z","tried":97}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:20:46.399239489Z","tried":92}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:20:56.7055859Z","tried":58}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T19:21:06.780552084Z","tried":127}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:21:16.854868657Z","tried":150}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:21:26.84246575Z","tried":94}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:21:37.220855552Z","tried":108}
+{"lvl":"info","msg":"Looking for peers","peercount":1,"static":0,"t":"2022-08-10T19:21:47.534693232Z","tried":52}
+{"lvl":"info","msg":"Looking for peers","peercount":0,"static":0,"t":"2022-08-10T19:21:57.699567503Z","tried":54}
+{"lvl":"info","msg":"Looking for peers","peercount":2,"static":0,"t":"2022-08-10T19:22:07.71852778Z","tried":23}

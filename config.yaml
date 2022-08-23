@@ -1,0 +1,19 @@
+alice:
+  address: 0x1234567890
+  config-file: alice.yaml
+
+bob:
+  address: 0x1234567890
+  config-file: bob.yaml
+
+charlie:
+  address: 0x1234567890
+  config-file: charlie.yaml
+
+dori:
+  address: 0x1234567890
+  config-file: dori.yaml
+  
+log:
+  level: all
+  file: "logfile.log"

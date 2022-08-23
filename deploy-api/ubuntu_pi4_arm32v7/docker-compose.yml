@@ -1,0 +1,17 @@
+version: "2"
+services:
+# TDOD: rpi is here redundant
+  ubuntu-rpi-arm32v7-api:
+    privileged: true
+    image: ubuntu-rpi-arm32v7-api:latest
+    ports:
+      - "8001:8080"
+    mem_limit: 512M
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      #TODO: eth container log to /home/ubuntu
+      - "./log:/var/log/go-perun-rest-api"
+    restart: always
+    environment:
+      BLOCKCHAIN: ws://192.168.0.11:8546
+      DATABASE: JustTestIng

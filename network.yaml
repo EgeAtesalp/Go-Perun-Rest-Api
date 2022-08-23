@@ -1,0 +1,20 @@
+peers:
+  alice:
+    peerID: 0x1e66D21a5BEADC6AfeB9a74E9703EaB207Da27f2
+    hostname: 127.0.0.1
+    port: 5751
+
+  bob:
+    peerID: 0x30494CB6B8e89AbE164Ddf33FB30f69150DE67cA
+    hostname: 127.0.0.1
+    port: 5750
+
+  charlie:
+    peerID: 0x2e248c0ce4324f9cddd0303d654dcc3eca153e12
+    hostname: 127.0.0.1
+    port: 5752
+
+  dori:
+    peerID: 0x3e3e7c64e3292ae7cf5678b31121c5e706cfb91a
+    hostname: 127.0.0.1
+    port: 5753

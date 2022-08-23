@@ -1,0 +1,62 @@
+
+======= Adjudicator.sol:Adjudicator =======
+Gas estimation:
+construction:
+   3053 + 2800000 = 2803053
+external:
+   conclude((uint256,uint256,address,address[]),(bytes32,uint64,(address[],uint256[][],(bytes32,uint256[])[]),bytes,bool)):	infinite
+   concludeFinal((uint256,uint256,address,address[]),(bytes32,uint64,(address[],uint256[][],(bytes32,uint256[])[]),bytes,bool),bytes[]):	infinite
+   disputes(bytes32):	infinite
+   progress((uint256,uint256,address,address[]),(bytes32,uint64,(address[],uint256[][],(bytes32,uint256[])[]),bytes,bool),(bytes32,uint64,(address[],uint256[][],(bytes32,uint256[])[]),bytes,bool),uint256,bytes):	infinite
+   refute((uint256,uint256,address,address[]),(bytes32,uint64,(address[],uint256[][],(bytes32,uint256[])[]),bytes,bool),bytes[]):	infinite
+   register((uint256,uint256,address,address[]),(bytes32,uint64,(address[],uint256[][],(bytes32,uint256[])[]),bytes,bool),bytes[]):	infinite
+internal:
+   _conclude(bytes32,struct Channel.Params memory,struct Channel.State memory):	infinite
+   calcChannelID(struct Channel.Params memory):	infinite
+   pushOutcome(bytes32,struct Channel.Params memory,struct Channel.State memory):	infinite
+   requireAssetPreservation(struct Channel.Allocation memory,struct Channel.Allocation memory,uint256):	infinite
+   requireValidTransition(struct Channel.Params memory,struct Channel.State memory,struct Channel.State memory,uint256):	infinite
+   storeChallenge(struct Channel.Params memory,struct Channel.State memory,bytes32,enum Adjudicator.DisputePhase):	infinite
+   validateSignatures(struct Channel.Params memory,struct Channel.State memory,bytes memory[] memory):	infinite
+
+======= App.sol:App =======
+Gas estimation:
+
+======= AssetHolder.sol:AssetHolder =======
+Gas estimation:
+
+======= Channel.sol:Channel =======
+Gas estimation:
+construction:
+   100 + 19800 = 19900
+internal:
+   encodeState(struct Channel.State memory):	infinite
+
+======= ECDSA.sol:ECDSA =======
+Gas estimation:
+construction:
+   94 + 17000 = 17094
+internal:
+   recover(bytes32,bytes memory):	infinite
+   toEthSignedMessageHash(bytes32):	infinite
+
+======= SafeMath.sol:SafeMath =======
+Gas estimation:
+construction:
+   94 + 17000 = 17094
+internal:
+   add(uint256,uint256):	infinite
+   div(uint256,uint256):	infinite
+   div(uint256,uint256,string memory):	infinite
+   mod(uint256,uint256):	infinite
+   mod(uint256,uint256,string memory):	infinite
+   mul(uint256,uint256):	infinite
+   sub(uint256,uint256):	infinite
+   sub(uint256,uint256,string memory):	infinite
+
+======= Sig.sol:Sig =======
+Gas estimation:
+construction:
+   94 + 17000 = 17094
+internal:
+   verify(bytes memory,bytes memory,address):	infinite

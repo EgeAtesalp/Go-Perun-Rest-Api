@@ -1,0 +1,5 @@
+psutil==5.8.0
+# in case this library cannot installed because PEP 517
+# check that by using ubuntu: libhdf5-dev have been installed
+# h5py==3.4.0
+argparse==1.4.0

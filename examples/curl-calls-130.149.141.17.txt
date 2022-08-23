@@ -1,0 +1,11 @@
+curl -XPOST http://130.149.141.17:8080/v2/paymentchannel/open/bob
+curl -XPOST http://130.149.141.17:8080/v2/paymentchannel/open/alice -d@channelToBob1000.json
+
+curl -XGET http://130.149.141.17:8080/v2/paymentchannel/info/alice
+curl -XGET http://130.149.141.17:8080/v2/paymentchannel/info/bob
+
+curl -XPOST http://130.149.141.17:8080/v2/paymentchannel/send/alice -d@sendMoneyToBob.json
+curl -XPOST http://130.149.141.17:8080/v2/paymentchannel/send/bob -d@sendMoneyToAlice.json
+
+curl -XPOST http://130.149.141.17:8080/v2/paymentchannel/close/alice -d@channelToBob1000.json
+curl -XPOST http://130.149.141.17:8080/v2/paymentchannel/close/bob   -d@channelToBob1000.json
